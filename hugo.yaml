@@ -1,0 +1,103 @@
+baseURL: "https://leoschmidttraub.com/"
+languageCode: en-us
+title: Leo Schmidt-Traub
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: false
+
+params:
+  env: production
+  title: Leo Schmidt-Traub
+  description: "CS Student at ETH Zürich | AI Research"
+  keywords: [AI, Machine Learning, Computer Science, ETH, Research]
+  author: Leo Schmidt-Traub
+  
+  defaultTheme: auto
+  disableThemeToggle: false
+  
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: true
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: true
+
+  label:
+    text: ""
+    icon: ""
+    iconHeight: 35
+
+  profileMode:
+    enabled: true
+    title: "Leo Schmidt-Traub"
+    subtitle: |
+      CS @ ETH Zürich · AI Research
+
+      Interested in machine learning and neural compression.
+      Currently researching audio codec models at ETH DISCO.
+    imageUrl: ""
+    imageWidth: 140
+    imageHeight: 140
+    imageTitle: ""
+    buttons: []
+
+  socialIcons:
+    - name: cv
+      url: "/cv.pdf"
+    - name: github
+      url: "https://github.com/lschmidttraub"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/leo-schmidt-traub-155158233/"
+    - name: email
+      url: "mailto:leo.schmidttraub@gmail.com"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main: []
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+

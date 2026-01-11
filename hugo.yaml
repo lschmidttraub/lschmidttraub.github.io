@@ -51,10 +51,7 @@ params:
     enabled: true
     title: "Leo Schmidt-Traub"
     subtitle: |
-      CS @ ETH Zürich · AI Research
-
-      Interested in machine learning and neural compression.
-      Currently researching audio codec models at ETH DISCO.
+      I'm an undergraduate student at ETH Zurich studying Computer Science. I'm interested in machine learning research, and am or was a TA for the subjects Discrete Mathematics and Introduction to Machine Learning.
     imageUrl: ""
     imageWidth: 140
     imageHeight: 140
